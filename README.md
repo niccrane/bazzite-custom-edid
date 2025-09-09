@@ -1,5 +1,5 @@
-# Bazzite OS - Install custom EDID
-Simple script to handle the install/uninstall of a custom EDID file for the Bazzite OS.
+# Bazzite - Install custom EDID
+Simple script to handle the install/uninstall of a custom EDID file for the [Bazzite](https://bazzite.gg/).
 
 The script performs the following:
 1) Installs [nFPM package manager](https://nfpm.goreleaser.com/) using HomeBrew
@@ -9,6 +9,12 @@ The script performs the following:
 5) Creates Dracut config file to include the bin within initramfs
 6) Enables initramfs generation
 7) Appends the EDID
+
+## Prerequisites
+
+* Be running Bazzite
+* Have sudo permissions
+
 
 ## Usage
 
